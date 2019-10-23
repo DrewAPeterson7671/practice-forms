@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
+
+    <title>Practice With Forms</title>
+  </head>
+  <body>
+    <div class="container">
+
+    <h1>Pactive</h1>
+
+      <form id="input">
+
+        <div class="form-group"> <!-- select box div-->
+          <select class="form-control" id="alcohol">
+            <option>Beer</option>
+            <option>Vodka</option>
+            <option>Wiskey</option>
+            <option>Wine</option>
+          </select>
+        </div>  <!-- select box div-->
+
+
+        <div class="form-group"> <!-- radio button div-->
+          <div class="radio">
+            <label>
+              <input type="radio" name="movie" value="Joker">
+              Joker
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="movie" value="Avengers">
+              Avengers
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="movie" value="Duck Soup">
+              Duck Soup
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="movie" value="Home Alone 5: Rise of Jigsaw">
+              Home Alone 5: Rise of Jigsaw
+            </label>
+          </div>
+        </div>  <!-- radio button div-->
+
+
+        <div class="form-group"> <!-- date div-->
+          <label for="birth">Date Of Birth</label>
+          <input id="birth" class="form-control" type="date">
+        </div> <!-- date div-->
+
+        <div class="form-group"> <!-- color div-->
+          <label for="color">Least Favorite Color</label>
+          <input class="form-control" type="color" id="color">
+        </div> <!-- color div-->
+
+
+        <div class=""> <!-- output div-->
+          <button type="submit" name="button">I am the Button, Welcome</button>
+
+          <p class="alcohol"></p>
+          <p class="movie"></p>
+          <p class="birth"></p>
+          <p class="color"></p>
+
+        </div> <!-- output div-->     
+      </form>
+
+
+
+
+
+    </div> <!-- class container div-->
+
+
+
+  </body>
+</html>
